@@ -20,6 +20,19 @@
             border: solid 5px dodgerblue;
             background: #fff;
         }
+        body{
+            display: grid;
+            grid-template-columns: [inicio]1fr [metade]1fr [metade-2] 1fr [fim];
+            grid-template-rows: repeat(3,1fr);
+
+        }
+        .d1{
+            grid-column-start:metade-2;
+            grid-column-end:fim;
+            grid-column: metade / fim;
+            grid-row: 1/ span 2;
+            grid-area: 1/ metade/ span 3 / fim;
+        }
     </style>
 </head>
 
