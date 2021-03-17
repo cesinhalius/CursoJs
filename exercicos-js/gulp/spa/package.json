@@ -25,6 +25,7 @@
     "gulp-webserver": "0.9.1"
   },
   "dependencies": {
+    "lodash.template": "4.5.0",
     "open": "6.0.0"
   }
 }
