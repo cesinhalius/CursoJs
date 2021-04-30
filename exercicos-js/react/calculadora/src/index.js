@@ -4,6 +4,12 @@ import './index.css';
 import Calculator from './main/Calculator';
 
 
-ReactDOM.render(<Calculator/>,document.getElementById('root'));
+ReactDOM.render(
+<div>
+  <h2>Calculadora</h2>
+<Calculator/>
+</div>
+
+,document.getElementById('root'));
 
 
